@@ -30,6 +30,5 @@ for v in lista:
         pdf.set_text_color(204, 0, 153)
         pdf.cell(0, 15, '{:<31}   {:<14}   {:<6}    R$ {:.2f}'.format(v[0], v[1], v[2], v[3]), 0, 1, '', 0)
         i += 1
-pdf.image('gay.jpg',75, 200, 60)
 pdf.image('motor.jpg',75,230,60)
 pdf.output('Loja.pdf', 'F')
